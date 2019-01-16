@@ -1,6 +1,6 @@
 .wrapper{
   display:grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-columns: 100%;
   grid-gap:.25em;
   }
 
@@ -35,4 +35,12 @@
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .wrapper{
+    display:grid;
+    grid-template-columns: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
+    grid-gap:.25em;
+    }
 }
